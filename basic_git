@@ -15,3 +15,5 @@ M -modified
 dir - directory
 cd  -change directory
 status 
+
+git pull -changes maded in git platform will pull to file in vs code...
