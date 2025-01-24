@@ -4,6 +4,8 @@ it retrive all data from respective repository. which store in .git file
 ->git init (Afetr clone no needed)
 ****It creates a hidden folder named .git in the current directory.
 
+[this part edited from github]
+retrive by git pull
 
 create file       ->    git add filename    ->    git commit -m "message of why adding new file"     ->      git push origin main
 file in folder            Staging Area                   in Local Repository  inside   .git file                remote repository
