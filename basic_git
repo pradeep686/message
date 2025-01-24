@@ -4,8 +4,6 @@ it retrive all data from respective repository. which store in .git file
 ->git init (Afetr clone no needed)
 ****It creates a hidden folder named .git in the current directory.
 
-[this part edited from github]
-retrive by git pull
 
 create file       ->    git add filename    ->    git commit -m "message of why adding new file"     ->      git push origin main
 file in folder            Staging Area                   in Local Repository  inside   .git file                remote repository
@@ -17,7 +15,7 @@ Local Repository: After running git commit, files are stored in the local Git re
 Remote Repository (e.g., GitHub): When you run git push, your changes are sent to a remote repository to sync with a cloud service or a shared project.
 
 origin-> https://github.com/pradeep686/message.git its the orgin of repository's directory-folder
-main -> branch of repository
+main -> name of branch in repository
 
 
 
@@ -26,13 +24,16 @@ This .git folder contains all the files and metadata Git needs to track changes 
 U - untracked
 M -modified
 dir - directory
-cd  -change directory
+cd  -change directory  [point inside the respective file]
 status 
 add -move to staging area
 
 git pull -changes maded in git platform will pull to file in vs code...
+[this part edited from github]
+retrive by:
+git pull
 
-checkout - git checkout origin/main --filename  which need to retrive
+checkout(bring something) - git checkout origin/main --filename  which need to retrive
 it take file from git to .git file in system which insert to main folder...
 
 add . ->move all MODIFIED file to staging 

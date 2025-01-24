@@ -1,3 +1,11 @@
+this file is take by checkout
+git checkout origin/main filename
+which retrive file from git..
+
+whole repository means git:
+git clone repository-url
+
+
 U - unmodify
 
 PS C:\Users\prade\Downloads\new> git status
@@ -5,6 +13,8 @@ fatal: not a git repository (or any of the parent directories): .git
 PS C:\Users\prade\Downloads\new> dir
 
 
+   
+   
     Directory: C:\Users\prade\Downloads\new
 
 
@@ -15,10 +25,7 @@ d-----        24-01-2025     09:51                message
 
 PS C:\Users\prade\Downloads\new> cd message
 PS C:\Users\prade\Downloads\new\message> git status
-On branch main
-Your branch is up to date with 'origin/main'.
 
 
-
-in above file is not commit with Directory message of 
+****in above file is not commit with Directory message of 
 cd message will Change Directory 
