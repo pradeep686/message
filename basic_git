@@ -1,6 +1,6 @@
 create file       ->    git add filename    ->    git commit -m "message of why adding new file"     ->      git push origin main
-file in folder          Staging Area                   in Local Repository  inside   .git file                remote repository
-internally in pc           ready to commit                   which in hidden folder                         move to cloud storage
+file in folder            Staging Area                   in Local Repository  inside   .git file                remote repository
+internally in pc        ready to commit                         which in hidden folder                         move to cloud storage
 
 Working Directory: This is where your files are initially located. Files here are not yet tracked by Git.
 Staging Area (Index): Files that you’ve staged using git add are placed here. This is where Git prepares files for committing.
@@ -9,3 +9,7 @@ Remote Repository (e.g., GitHub): When you run git push, your changes are sent t
 
 origin-> https://github.com/pradeep686/message.git its the orgin of repository's directory-folder
 main -> branch of repository
+
+dir - directory
+cd  -change directory
+status 
