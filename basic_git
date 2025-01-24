@@ -1,9 +1,23 @@
+retriving whole file:
 git clone repository_link
-it retrive all data from respective repository. which store in .git file
+it retrive all data from respective repository and store it in .git file
+
+retriving single file
+checkout(bring something) - git checkout origin/main --filename  which need to retrive
+it take file from git to .git file in system which insert to main folder...
+[Restore a file  checkout filename
+switching branch  checkout branchname
+]
+
+This .git folder contains all the files and metadata Git needs to track changes and play as bridge between the git and working place
 
 ->git init (Afetr clone no needed)
 ****It creates a hidden folder named .git in the current directory.
-
+when it used [
+1.not taking code from git and Starting a New Project from Scratch
+2.If the .git folder was accidentally deleted, running git init can recreate it.
+Note: You'll lose the old commit history unless you back up the .git folder.
+]
 
 create file       ->    git add filename    ->    git commit -m "message of why adding new file"     ->      git push origin main
 file in folder            Staging Area                   in Local Repository  inside   .git file                remote repository
@@ -19,7 +33,6 @@ main -> name of branch in repository
 
 
 
-This .git folder contains all the files and metadata Git needs to track changes and play as bridge between the git and working place
 
 U - untracked
 M -modified
@@ -33,13 +46,12 @@ git pull -changes maded in git platform will pull to file in vs code...
 retrive by:
 git pull
 
-checkout(bring something) - git checkout origin/main --filename  which need to retrive
-it take file from git to .git file in system which insert to main folder...
 
 add . ->move all MODIFIED file to staging 
 git add .
 
 If you have pushed a file to GitHub and later deleted it in your local repository (in VS Code), To retrieve:
+git checkout filename
 
 
 
