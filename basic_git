@@ -1,3 +1,8 @@
+  ^
+  |
+The blue arrow in your file explorer (like in Visual Studio Code) typically 
+indicates that the file or folder has been staged in a Git repository.
+
 retriving whole file:
 git clone repository_link
 it retrive all data from respective repository and store it in .git file
