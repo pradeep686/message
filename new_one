@@ -11,9 +11,9 @@ U - unmodify
 PS C:\Users\prade\Downloads\new> git status
 fatal: not a git repository (or any of the parent directories): .git
 PS C:\Users\prade\Downloads\new> dir
+ 
 
-
-   
+    
    
     Directory: C:\Users\prade\Downloads\new
 
