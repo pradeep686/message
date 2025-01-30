@@ -36,15 +36,14 @@ Remote Repository (e.g., GitHub): When you run git push, your changes are sent t
 origin-> https://github.com/pradeep686/message.git its the orgin of repository's directory-folder
 main -> name of branch in repository
 
-
-
-
 U - untracked
 M -modified
 dir - directory
 cd  -change directory  [point inside the respective file]
 status 
 add -move to staging area
+
+
 
 git pull -changes maded in git platform will pull to file in vs code...
 [this part edited from github]
