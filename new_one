@@ -2,16 +2,20 @@ this file is take by checkout
 git checkout origin/main filename
 which retrive file from git..
 
+
+
 whole repository means git:
 git clone repository-url
 
 
 U - unmodify
 
+
+
+
 PS C:\Users\prade\Downloads\new> git status
 fatal: not a git repository (or any of the parent directories): .git
 PS C:\Users\prade\Downloads\new> dir
- 
 
     
    
