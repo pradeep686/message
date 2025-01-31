@@ -47,19 +47,13 @@ status
 add -move to staging area
 
 
-
-
 git pull -changes maded in git platform will pull to file in vs code...
 [this part edited from github]
 retrive by:
 git pull
 
-
-
 add . ->move all MODIFIED file to staging 
 git add .
-
-
 
 
 If you have pushed a file to GitHub and later deleted it in your local repository (in VS Code), To retrieve:
