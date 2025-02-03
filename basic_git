@@ -55,9 +55,22 @@ git pull
 add . ->move all MODIFIED file to staging 
 git add .
 
-
 If you have pushed a file to GitHub and later deleted it in your local repository (in VS Code), To retrieve:
 git checkout filename
+
+
+if we have n numbers of files to move to newly created repoistory,
+
+git init --> initilize .git file
+
+git add . -->add all the files
+
+git commit -m "Initial commit"  -->This commits your staged files with the message "Initial commit".
+
+git remote add origin <Repository-URL>  -->stagging area to local repository
+
+git push -u origin <Branch Name>  main or master 
+**Use -u only once when pushing a new branch for the first time.
 
 
 

@@ -3,6 +3,7 @@ git checkout origin/main filename
 which retrive file from git..
 
 
+
 whole repository means git:
 git clone repository-url
 
@@ -15,6 +16,7 @@ PS C:\Users\prade\Downloads\new> dir
     
    
     Directory: C:\Users\prade\Downloads\new
+    
 
 
 Mode                 LastWriteTime         Length Name
@@ -26,7 +28,10 @@ PS C:\Users\prade\Downloads\new> cd message
 PS C:\Users\prade\Downloads\new\message> git status
 
 
+
 ****in above file is not commit with Directory message of 
 cd message will Change Directory 
+
+
 
 clone cd add commit origin main add ....
